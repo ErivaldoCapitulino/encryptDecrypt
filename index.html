@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img class="logo" src="./img/logo.svg">
+        </div>
+    </header>
+    <main class="container">
+        <div class="grid">
+            <section class="texto">
+                <textarea class="textarea" placeholder="Digite seu texto..."></textarea>
+
+                <div class="notification">
+                    <img src="./img/notification.svg" alt="Notificação">
+                    <p>Apenas letras minusculas e minusculas sem acento</p>
+                </div>
+
+                <div class="buttons">
+                    <button class="btnEncrypt" type="button">Criptografar</button>
+                    <button class="btnDecrypt" class="btn" type="button">Descriptografar</button>
+                </div>
+            </section>
+            <section class="result">
+
+                <textarea class="textareaResult"></textarea>
+
+                <div class="btnCopiar">
+                    <button class="btnCopy">Copiar </button>
+                </div>
+            </section>
+        </div>
+        <!-- <div class="toast success">
+            Texto copiado
+        </div> -->
+    </main>
+    <footer class="footer">
+        <p class="footer__text">Desenvolvido por Erivaldo Capitulino da Silva</p>
+    </footer>
+</body>
+
+</html>
