@@ -1,7 +1,7 @@
-#Projeto decodificador de texto
+# Projeto decodificador de texto
 
 
-##Descrição
+## Descrição
 
 Realizar uma aplicação que criptografa textos, quw possa trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
 
@@ -12,7 +12,7 @@ A letra "a" é convertida para "ai"
 A letra "o" é convertida para "ober"
 A letra "u" é convertida para "ufat"
 
-##Requisitos:
+## Requisitos:
 - Deve funcionar apenas com letras minúsculas
 - Não devem ser utilizados letras com acentos nem caracteres especiais
 - Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
@@ -26,4 +26,8 @@ O resultado deve ser exibido na tela.
 Extras:
 - Um botão que copie o texto criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos.
 
-![Alt text](image.png)
+![Alt text](./img/tela.png)
+
+## Badge por realização do projeto
+
+![Alt text](./img/badge.png)
